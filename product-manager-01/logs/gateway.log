@@ -1,0 +1,85 @@
+2026-03-17T01:07:58.866+08:00 [canvas] host mounted at http://0.0.0.0:18810/__openclaw__/canvas/ (root /Users/moonviz/.openclaw-product_manager/canvas)
+2026-03-17T01:07:58.908+08:00 [heartbeat] started
+2026-03-17T01:07:58.911+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-17T01:07:58.912+08:00 [gateway] agent model: kimi-coding/k2p5
+2026-03-17T01:07:58.913+08:00 [gateway] listening on ws://0.0.0.0:18810 (PID 60448)
+2026-03-17T01:07:58.914+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-17.log
+2026-03-17T01:07:58.961+08:00 [browser/server] Browser control listening on http://127.0.0.1:18812/ (auth=password)
+2026-03-17T01:07:58.963+08:00 [slack] [default] starting provider
+2026-03-17T01:08:00.354+08:00 [slack] http mode listening at /slack/events
+2026-03-17T01:19:41.467+08:00 [slack] delivered reply to user:U0AHR6U5DEJ
+2026-03-17T01:25:08.106+08:00 [slack] delivered reply to user:U0AHR6U5DEJ
+2026-03-17T15:09:29.048+08:00 [slack] delivered reply to user:U0AHR6U5DEJ
+2026-03-17T16:02:53.184+08:00 [reload] config change detected; evaluating reload (agents.defaults.compaction, channels.slack.groupPolicy)
+2026-03-17T16:02:53.193+08:00 [gateway/channels] restarting slack channel
+2026-03-17T16:02:53.196+08:00 [slack] [default] starting provider
+2026-03-17T16:02:53.202+08:00 [reload] config hot reload applied (channels.slack.groupPolicy)
+2026-03-17T16:02:54.333+08:00 [slack] http mode listening at /slack/events
+2026-03-17T16:02:58.195+08:00 [gateway] signal SIGTERM received
+2026-03-17T16:02:58.197+08:00 [gateway] received SIGTERM; shutting down
+2026-03-17T16:02:58.207+08:00 [gmail-watcher] gmail watcher stopped
+2026-03-17T16:03:01.029+08:00 [canvas] host mounted at http://0.0.0.0:18810/__openclaw__/canvas/ (root /Users/moonviz/.openclaw-product_manager/canvas)
+2026-03-17T16:03:01.058+08:00 [heartbeat] started
+2026-03-17T16:03:01.060+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-17T16:03:01.061+08:00 [gateway] agent model: kimi-coding/k2p5
+2026-03-17T16:03:01.062+08:00 [gateway] listening on ws://0.0.0.0:18810 (PID 35804)
+2026-03-17T16:03:01.063+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-17.log
+2026-03-17T16:03:01.107+08:00 [browser/server] Browser control listening on http://127.0.0.1:18812/ (auth=password)
+2026-03-17T16:03:01.109+08:00 [slack] [default] starting provider
+2026-03-17T16:03:02.550+08:00 [slack] http mode listening at /slack/events
+2026-03-17T16:04:57.001+08:00 [slack] delivered reply to channel:C0AM0A34NVA
+2026-03-17T17:05:40.816+08:00 [gateway] signal SIGTERM received
+2026-03-17T17:05:40.818+08:00 [gateway] received SIGTERM; shutting down
+2026-03-17T17:05:40.832+08:00 [gmail-watcher] gmail watcher stopped
+2026-03-17T17:06:20.537+08:00 [canvas] host mounted at http://0.0.0.0:18810/__openclaw__/canvas/ (root /Users/moonviz/.openclaw-product-manager-01/canvas)
+2026-03-17T17:06:20.565+08:00 [heartbeat] started
+2026-03-17T17:06:20.568+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-17T17:06:20.569+08:00 [gateway] agent model: kimi-coding/k2p5
+2026-03-17T17:06:20.570+08:00 [gateway] listening on ws://0.0.0.0:18810 (PID 41338)
+2026-03-17T17:06:20.570+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-17.log
+2026-03-17T17:06:20.615+08:00 [browser/server] Browser control listening on http://127.0.0.1:18812/ (auth=password)
+2026-03-17T17:06:20.616+08:00 [slack] [default] starting provider
+2026-03-17T17:06:21.867+08:00 [slack] http mode listening at /slack/events
+2026-03-17T17:12:52.684+08:00 [gateway] signal SIGTERM received
+2026-03-17T17:12:52.687+08:00 [gateway] received SIGTERM; shutting down
+2026-03-17T17:12:52.698+08:00 [gmail-watcher] gmail watcher stopped
+2026-03-17T17:12:55.978+08:00 [canvas] host mounted at http://0.0.0.0:18810/__openclaw__/canvas/ (root /Users/moonviz/.openclaw-product-manager-01/canvas)
+2026-03-17T17:12:56.027+08:00 [heartbeat] started
+2026-03-17T17:12:56.029+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-17T17:12:56.032+08:00 [gateway] agent model: kimi-coding/k2p5
+2026-03-17T17:12:56.033+08:00 [gateway] listening on ws://0.0.0.0:18810 (PID 41921)
+2026-03-17T17:12:56.034+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-17.log
+2026-03-17T17:12:56.089+08:00 [browser/server] Browser control listening on http://127.0.0.1:18812/ (auth=password)
+2026-03-17T17:12:56.091+08:00 [slack] [default] starting provider
+2026-03-17T17:12:57.309+08:00 [slack] http mode listening at /slack/events
+2026-03-17T17:33:34.177+08:00 [slack] delivered reply to user:U0AHR6U5DEJ
+2026-03-17T17:35:39.297+08:00 [slack] delivered reply to user:U0AHR6U5DEJ
+2026-03-17T17:36:13.820+08:00 [slack] delivered reply to user:U0AHR6U5DEJ
+2026-03-17T17:36:33.559+08:00 [slack] delivered reply to user:U0AHR6U5DEJ
+2026-03-17T18:22:47.315+08:00 [slack] delivered reply to user:U0AHR6U5DEJ
+2026-03-18T12:06:26.576+08:00 [slack] delivered reply to user:U0AHR6U5DEJ
+2026-03-18T15:52:50.952+08:00 [slack] delivered reply to user:U0AHR6U5DEJ
+2026-03-18T20:42:50.067+08:00 [gateway] signal SIGTERM received
+2026-03-18T20:42:50.110+08:00 [gateway] received SIGTERM; shutting down
+2026-03-18T20:42:50.314+08:00 [gmail-watcher] gmail watcher stopped
+2026-03-18T08:44:47.048-04:00 [canvas] host mounted at http://0.0.0.0:18810/__openclaw__/canvas/ (root /Users/moonviz/.openclaw-product-manager-01/canvas)
+2026-03-18T08:44:47.177-04:00 [heartbeat] started
+2026-03-18T08:44:47.182-04:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-18T08:44:47.186-04:00 [gateway] agent model: kimi-coding/k2p5
+2026-03-18T08:44:47.189-04:00 [gateway] listening on ws://0.0.0.0:18810 (PID 1003)
+2026-03-18T08:44:47.191-04:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-18.log
+2026-03-18T08:44:47.341-04:00 [browser/server] Browser control listening on http://127.0.0.1:18812/ (auth=password)
+2026-03-18T08:44:47.347-04:00 [slack] [default] starting provider
+2026-03-18T08:44:48.648-04:00 [slack] http mode listening at /slack/events
+2026-03-20T03:15:13.367-04:00 [gateway] signal SIGTERM received
+2026-03-20T03:15:13.369-04:00 [gateway] received SIGTERM; shutting down
+2026-03-20T03:15:13.887-04:00 [gmail-watcher] gmail watcher stopped
+2026-03-20T01:28:56.492-07:00 [canvas] host mounted at http://0.0.0.0:18810/__openclaw__/canvas/ (root /Users/moonviz/.openclaw-product-manager-01/canvas)
+2026-03-20T01:28:56.651-07:00 [heartbeat] started
+2026-03-20T01:28:56.658-07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-20T01:28:56.664-07:00 [gateway] agent model: kimi-coding/k2p5
+2026-03-20T01:28:56.665-07:00 [gateway] listening on ws://0.0.0.0:18810 (PID 989)
+2026-03-20T01:28:56.666-07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-20.log
+2026-03-20T01:28:56.774-07:00 [browser/server] Browser control listening on http://127.0.0.1:18812/ (auth=password)
+2026-03-20T01:28:56.778-07:00 [slack] [default] starting provider
+2026-03-20T01:28:58.288-07:00 [slack] http mode listening at /slack/events

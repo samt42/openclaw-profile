@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "profiles": {
+    "0": {
+      "id": "kimi-coding:manual",
+      "provider": "kimi-coding",
+      "type": "token",
+      "token": "sk-kimi-Mz6rJOIS3zmUu8jbybyZq6PLtrzyijFtNF06CZ3mNl79OGRzciRtRygpkOxfRhQg",
+      "createdAt": "2026-03-12T15:11:18Z"
+    }
+  },
+  "usageStats": {
+    "0": {
+      "errorCount": 0,
+      "lastUsed": 1773820375077
+    }
+  }
+}

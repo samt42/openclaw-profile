@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.8",
+    "lastTouchedAt": "2026-03-09T15:59:23.082Z",
+    "profile": "product_manager"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "slack": {
+      "name": "product_manager",
+      "mode": "http",
+      "signingSecret": "product-manager-secret-here",
+      "webhookPath": "/slack/events/product_manager",
+      "enabled": true,
+      "botToken": "xoxb-product-manager-token-here",
+      "userTokenReadOnly": true,
+      "groupPolicy": "allowlist",
+      "streaming": "partial",
+      "nativeStreaming": true
+    }
+  },
+  "gateway": {
+    "port": 18790,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": {
+      "allowedOrigins": [
+        "https://moonvizmacbook-air.tailb7c03c.ts.net",
+        "http://100.91.172.69:18788",
+        "http://localhost:18788",
+        "http://127.0.0.1:18788"
+      ]
+    },
+    "auth": {
+      "mode": "password",
+      "password": "openclaw-funnel-2025"
+    },
+    "trustedProxies": [
+      "100.0.0.0/8",
+      "127.0.0.1/32",
+      "::1/128"
+    ],
+    "tls": {
+      "enabled": false
+    }
+  },
+  "controlUi": {
+    "allowedOrigins": [
+      "https://moonvizmacbook-air.tailb7c03c.ts.net",
+      "http://100.91.172.69:18790",
+      "http://localhost:18790",
+      "http://127.0.0.1:18790"
+    ]
+  }
+}

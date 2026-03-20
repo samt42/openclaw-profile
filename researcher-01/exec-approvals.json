@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/Users/moonviz/.openclaw/exec-approvals.sock",
+    "token": "-noSP9nFc6kl7wak6UkGc3G60Vxp99Ja"
+  },
+  "defaults": {},
+  "agents": {}
+}

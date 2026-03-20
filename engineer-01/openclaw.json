@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.8",
+    "lastTouchedAt": "2026-03-12T15:11:18.000Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-12T15:11:18.000Z",
+    "lastRunVersion": "2026.3.8",
+    "lastRunCommand": "setup",
+    "lastRunMode": "local"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "kimi-coding/k2p5"
+      },
+      "models": {
+        "kimi-coding/k2p5": {}
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "slack": {
+      "mode": "http",
+      "signingSecret": "a4706beeb26dd1184cb492e3f3bb8cb2",
+      "webhookPath": "/slack/events",
+      "enabled": true,
+      "botToken": "xoxb-10598899674563-10693038764599-QHJZiSnrUWXiAT6cP2IIFa9K",
+      "userTokenReadOnly": true,
+      "groupPolicy": "open",
+      "streaming": "off",
+      "nativeStreaming": true
+    }
+  },
+  "gateway": {
+    "port": 18800,
+    "mode": "local",
+    "bind": "lan",
+    "controlUi": {
+      "allowedOrigins": [
+        "https://moonvizmacbook-air.tailb7c03c.ts.net"
+      ]
+    },
+    "auth": {
+      "mode": "password",
+      "password": "moonvision"
+    },
+    "trustedProxies": [
+      "100.0.0.0/8",
+      "127.0.0.1/32",
+      "::1/128"
+    ],
+    "tls": {
+      "enabled": false
+    }
+  }
+}

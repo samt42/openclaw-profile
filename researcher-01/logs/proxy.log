@@ -1,0 +1,521 @@
+============================================================
+OpenClaw 多 Profile 反向代理已启动
+============================================================
+监听: https://0.0.0.0:18788
+Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net:18788
+
+路由规则:
+  /           → http://127.0.0.1:18789
+  /developer/*   → http://127.0.0.1:18793
+  /manager/*   → http://127.0.0.1:18794
+  /operator/*   → http://127.0.0.1:18795
+
+Slack Webhook URLs:
+  默认:    https://moonvizmacbook-air.tailb7c03c.ts.net:18788/slack/events
+  Developer: https://moonvizmacbook-air.tailb7c03c.ts.net:18788/developer/slack/events
+  Manager:   https://moonvizmacbook-air.tailb7c03c.ts.net:18788/manager/slack/events
+  Operator:  https://moonvizmacbook-air.tailb7c03c.ts.net:18788/operator/slack/events
+============================================================
+2026-03-13T04:54:12.313Z GET /health → http://127.0.0.1:18789/health
+2026-03-13T04:54:12.366Z GET /developer/health → http://127.0.0.1:18793/health
+2026-03-13T04:54:12.417Z GET /manager/health → http://127.0.0.1:18794/health
+2026-03-13T04:54:12.462Z GET /operator/health → http://127.0.0.1:18795/health
+============================================================
+OpenClaw 多 Profile 反向代理已启动
+============================================================
+监听: https://0.0.0.0:18788
+Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net:18788
+
+路由规则:
+  /           → http://100.91.172.69:18789
+  /developer/*   → http://127.0.0.1:18793
+  /manager/*   → http://127.0.0.1:18794
+  /operator/*   → http://127.0.0.1:18795
+
+Slack Webhook URLs:
+  默认:    https://moonvizmacbook-air.tailb7c03c.ts.net:18788/slack/events
+  Developer: https://moonvizmacbook-air.tailb7c03c.ts.net:18788/developer/slack/events
+  Manager:   https://moonvizmacbook-air.tailb7c03c.ts.net:18788/manager/slack/events
+  Operator:  https://moonvizmacbook-air.tailb7c03c.ts.net:18788/operator/slack/events
+============================================================
+2026-03-13T04:54:34.475Z GET /health → http://100.91.172.69:18789/health
+============================================================
+OpenClaw 多 Profile 反向代理已启动
+============================================================
+监听: https://0.0.0.0:18788
+Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net:18788
+
+路由规则:
+  /           → https://100.91.172.69:18789
+  /developer/*   → http://127.0.0.1:18793
+  /manager/*   → http://127.0.0.1:18794
+  /operator/*   → http://127.0.0.1:18795
+
+Slack Webhook URLs:
+  默认:    https://moonvizmacbook-air.tailb7c03c.ts.net:18788/slack/events
+  Developer: https://moonvizmacbook-air.tailb7c03c.ts.net:18788/developer/slack/events
+  Manager:   https://moonvizmacbook-air.tailb7c03c.ts.net:18788/manager/slack/events
+  Operator:  https://moonvizmacbook-air.tailb7c03c.ts.net:18788/operator/slack/events
+============================================================
+2026-03-13T04:55:01.029Z GET /health → https://100.91.172.69:18789/health
+2026-03-13T04:55:01.087Z GET /developer/health → http://127.0.0.1:18793/health
+2026-03-13T04:55:04.499Z GET /manager/health → http://127.0.0.1:18794/health
+2026-03-13T04:55:04.551Z GET /operator/health → http://127.0.0.1:18795/health
+2026-03-13T04:55:16.009Z GET /operator/health → http://127.0.0.1:18795/health
+============================================================
+OpenClaw 多 Profile 反向代理已启动
+============================================================
+监听: https://0.0.0.0:18788
+Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net:18788
+
+路由规则:
+  /           → https://100.91.172.69:18789
+  /developer/*   → http://127.0.0.1:18793
+  /manager/*   → http://127.0.0.1:18794
+  /operator/*   → http://127.0.0.1:18795
+
+Slack Webhook URLs:
+  默认:    https://moonvizmacbook-air.tailb7c03c.ts.net:18788/slack/events
+  Developer: https://moonvizmacbook-air.tailb7c03c.ts.net:18788/developer/slack/events
+  Manager:   https://moonvizmacbook-air.tailb7c03c.ts.net:18788/manager/slack/events
+  Operator:  https://moonvizmacbook-air.tailb7c03c.ts.net:18788/operator/slack/events
+============================================================
+2026-03-13T04:57:25.869Z GET /operator/health → http://127.0.0.1:18795/health
+2026-03-13T04:57:33.104Z GET /health → https://100.91.172.69:18789/health
+2026-03-13T04:57:33.153Z GET /developer/health → http://127.0.0.1:18793/health
+2026-03-13T04:57:33.211Z GET /manager/health → http://127.0.0.1:18794/health
+2026-03-13T04:57:58.764Z GET /health → https://100.91.172.69:18789/health
+2026-03-13T04:57:58.798Z GET /developer/health → http://127.0.0.1:18793/health
+2026-03-13T04:57:58.817Z GET /manager/health → http://127.0.0.1:18794/health
+2026-03-13T04:57:58.834Z GET /operator/health → http://127.0.0.1:18795/health
+2026-03-13T05:18:18.075Z GET /health → https://100.91.172.69:18789/health
+2026-03-13T05:18:25.476Z GET /health → https://100.91.172.69:18789/health
+2026-03-13T05:18:25.506Z GET /developer/health → http://127.0.0.1:18793/health
+2026-03-13T05:18:25.533Z GET /manager/health → http://127.0.0.1:18794/health
+2026-03-13T05:18:25.560Z GET /operator/health → http://127.0.0.1:18795/health
+============================================================
+OpenClaw 多 Profile 反向代理已启动
+============================================================
+监听: https://0.0.0.0:18788
+Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net:18788
+
+路由规则:
+  /           → https://100.91.172.69:18789
+  /developer/*   → http://127.0.0.1:18793
+  /manager/*   → http://127.0.0.1:18794
+  /operator/*   → http://127.0.0.1:18795
+
+Slack Webhook URLs:
+  默认:    https://moonvizmacbook-air.tailb7c03c.ts.net:18788/slack/events
+  Developer: https://moonvizmacbook-air.tailb7c03c.ts.net:18788/developer/slack/events
+  Manager:   https://moonvizmacbook-air.tailb7c03c.ts.net:18788/manager/slack/events
+  Operator:  https://moonvizmacbook-air.tailb7c03c.ts.net:18788/operator/slack/events
+============================================================
+[2026-03-13T07:01:00.993Z] [INFO] ============================================================
+[2026-03-13T07:01:00.994Z] [INFO] OpenClaw HTTPS 代理服务器已启动
+[2026-03-13T07:01:00.994Z] [INFO] ============================================================
+[2026-03-13T07:01:00.994Z] [INFO] 监听地址: https://0.0.0.0:18788
+[2026-03-13T07:01:00.994Z] [INFO] Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net
+[2026-03-13T07:01:00.994Z] [INFO] 
+[2026-03-13T07:01:00.994Z] [INFO] 路由规则:
+[2026-03-13T07:01:00.994Z] [INFO]   /           → https://100.91.172.69:18789
+[2026-03-13T07:01:00.994Z] [INFO]   /developer/*   → http://127.0.0.1:18793
+[2026-03-13T07:01:00.994Z] [INFO]   /manager/*   → http://127.0.0.1:18794
+[2026-03-13T07:01:00.994Z] [INFO]   /operator/*   → http://127.0.0.1:18795
+[2026-03-13T07:01:00.994Z] [INFO] 
+[2026-03-13T07:01:00.994Z] [INFO] Slack Webhook URLs:
+[2026-03-13T07:01:00.994Z] [INFO]   默认:    https://moonvizmacbook-air.tailb7c03c.ts.net/slack/events
+[2026-03-13T07:01:00.994Z] [INFO]   /developer: https://moonvizmacbook-air.tailb7c03c.ts.net/developer/slack/events
+[2026-03-13T07:01:00.994Z] [INFO]   /manager: https://moonvizmacbook-air.tailb7c03c.ts.net/manager/slack/events
+[2026-03-13T07:01:00.994Z] [INFO]   /operator: https://moonvizmacbook-air.tailb7c03c.ts.net/operator/slack/events
+[2026-03-13T07:01:00.995Z] [INFO] ============================================================
+[2026-03-13T07:01:03.057Z] [INFO] GET /health → https://100.91.172.69:18789/health
+[2026-03-13T07:01:10.414Z] [INFO] GET /health → https://100.91.172.69:18789/health
+[2026-03-13T07:01:10.447Z] [INFO] GET /developer/health → http://127.0.0.1:18793/health
+[2026-03-13T07:01:10.474Z] [INFO] GET /manager/health → http://127.0.0.1:18794/health
+[2026-03-13T07:01:10.501Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T07:49:16.530Z] [INFO] 收到 SIGTERM 信号，正在关闭服务器...
+[2026-03-13T07:49:16.531Z] [INFO] 服务器已关闭
+[2026-03-13T07:49:16.611Z] [INFO] ============================================================
+[2026-03-13T07:49:16.612Z] [INFO] OpenClaw HTTPS 代理服务器已启动
+[2026-03-13T07:49:16.612Z] [INFO] ============================================================
+[2026-03-13T07:49:16.612Z] [INFO] 监听地址: https://0.0.0.0:18788
+[2026-03-13T07:49:16.612Z] [INFO] Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net
+[2026-03-13T07:49:16.612Z] [INFO] 
+[2026-03-13T07:49:16.612Z] [INFO] 路由规则:
+[2026-03-13T07:49:16.612Z] [INFO]   /           → http://127.0.0.1:18789
+[2026-03-13T07:49:16.612Z] [INFO]   /developer/*   → http://127.0.0.1:18793
+[2026-03-13T07:49:16.612Z] [INFO]   /manager/*   → http://127.0.0.1:18794
+[2026-03-13T07:49:16.612Z] [INFO]   /operator/*   → http://127.0.0.1:18795
+[2026-03-13T07:49:16.613Z] [INFO] 
+[2026-03-13T07:49:16.613Z] [INFO] Slack Webhook URLs:
+[2026-03-13T07:49:16.613Z] [INFO]   默认:    https://moonvizmacbook-air.tailb7c03c.ts.net/slack/events
+[2026-03-13T07:49:16.613Z] [INFO]   /developer: https://moonvizmacbook-air.tailb7c03c.ts.net/developer/slack/events
+[2026-03-13T07:49:16.613Z] [INFO]   /manager: https://moonvizmacbook-air.tailb7c03c.ts.net/manager/slack/events
+[2026-03-13T07:49:16.613Z] [INFO]   /operator: https://moonvizmacbook-air.tailb7c03c.ts.net/operator/slack/events
+[2026-03-13T07:49:16.613Z] [INFO] ============================================================
+[2026-03-13T07:49:25.610Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T07:49:25.619Z] [ERROR] 代理错误: socket hang up
+[2026-03-13T07:50:28.897Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T07:50:28.970Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T07:50:28.996Z] [INFO] GET /developer/health → http://127.0.0.1:18793/health
+[2026-03-13T07:50:29.022Z] [INFO] GET /manager/health → http://127.0.0.1:18794/health
+[2026-03-13T07:58:43.874Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T08:12:12.757Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T08:55:59.400Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T08:56:23.594Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T08:56:23.623Z] [INFO] GET /developer/health → http://127.0.0.1:18793/health
+[2026-03-13T08:56:23.651Z] [INFO] GET /manager/health → http://127.0.0.1:18794/health
+[2026-03-13T08:57:50.378Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T08:57:52.574Z] [INFO] GET /assets/index-E0j6Tkrc.css → http://127.0.0.1:18789/assets/index-E0j6Tkrc.css
+[2026-03-13T08:57:52.580Z] [INFO] GET /assets/index-wxM3V0HM.js → http://127.0.0.1:18789/assets/index-wxM3V0HM.js
+[2026-03-13T08:57:59.649Z] [INFO] GET /favicon.svg → http://127.0.0.1:18789/favicon.svg
+[2026-03-13T08:57:59.653Z] [INFO] GET /__openclaw/control-ui-config.json → http://127.0.0.1:18789/__openclaw/control-ui-config.json
+[2026-03-13T08:57:59.654Z] [INFO] GET /assets/zh-CN-BgJ8_lE3.js → http://127.0.0.1:18789/assets/zh-CN-BgJ8_lE3.js
+[2026-03-13T08:58:00.291Z] [INFO] GET /favicon.svg → http://127.0.0.1:18789/favicon.svg
+[2026-03-13T08:58:03.085Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T08:59:04.010Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T08:59:11.235Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T08:59:11.797Z] [INFO] GET /assets/index-wxM3V0HM.js → http://127.0.0.1:18789/assets/index-wxM3V0HM.js
+[2026-03-13T08:59:11.803Z] [INFO] GET /assets/index-E0j6Tkrc.css → http://127.0.0.1:18789/assets/index-E0j6Tkrc.css
+[2026-03-13T08:59:20.392Z] [INFO] GET /assets/zh-CN-BgJ8_lE3.js → http://127.0.0.1:18789/assets/zh-CN-BgJ8_lE3.js
+[2026-03-13T08:59:20.394Z] [INFO] GET /developer/__openclaw/control-ui-config.json → http://127.0.0.1:18793/__openclaw/control-ui-config.json
+[2026-03-13T08:59:20.397Z] [INFO] GET /developer/favicon.svg → http://127.0.0.1:18793/favicon.svg
+[2026-03-13T08:59:21.368Z] [INFO] GET /developer/favicon.svg → http://127.0.0.1:18793/favicon.svg
+[2026-03-13T08:59:23.506Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:00:26.026Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:01:29.049Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:02:32.564Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:03:37.926Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:04:46.080Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:05:58.726Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:07:15.502Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:08:31.157Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:09:46.526Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:11:03.483Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:12:20.731Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:13:36.635Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:14:26.845Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:15:44.682Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:17:00.482Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:18:15.407Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:19:38.661Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:20:47.030Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:22:05.024Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:23:23.771Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:24:37.203Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:25:47.636Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:27:10.375Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:28:30.554Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T09:28:33.007Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:29:48.707Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:30:44.172Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:32:02.043Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:33:24.243Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:34:26.080Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T09:35:25.850Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:35:57.989Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:35:58.596Z] [INFO] GET /assets/index-E0j6Tkrc.css → http://127.0.0.1:18789/assets/index-E0j6Tkrc.css
+[2026-03-13T09:35:58.605Z] [INFO] GET /assets/index-wxM3V0HM.js → http://127.0.0.1:18789/assets/index-wxM3V0HM.js
+[2026-03-13T09:36:05.758Z] [INFO] GET /__openclaw/control-ui-config.json → http://127.0.0.1:18789/__openclaw/control-ui-config.json
+[2026-03-13T09:36:05.761Z] [INFO] GET /assets/zh-CN-BgJ8_lE3.js → http://127.0.0.1:18789/assets/zh-CN-BgJ8_lE3.js
+[2026-03-13T09:36:05.764Z] [INFO] GET /favicon.svg → http://127.0.0.1:18789/favicon.svg
+[2026-03-13T09:36:06.588Z] [INFO] GET /favicon.svg → http://127.0.0.1:18789/favicon.svg
+[2026-03-13T09:36:08.590Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:36:09.063Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T09:36:10.016Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T09:36:58.147Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T09:37:00.719Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T09:37:01.803Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T09:37:07.159Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T09:37:07.777Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T09:37:08.011Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T09:37:10.482Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:38:12.997Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:38:48.491Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:39:04.007Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:39:18.810Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:39:18.813Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:39:19.273Z] [INFO] GET /assets/index-wxM3V0HM.js → http://127.0.0.1:18789/assets/index-wxM3V0HM.js
+[2026-03-13T09:39:20.131Z] [INFO] GET /assets/index-E0j6Tkrc.css → http://127.0.0.1:18789/assets/index-E0j6Tkrc.css
+[2026-03-13T09:39:26.723Z] [INFO] GET /assets/zh-CN-BgJ8_lE3.js → http://127.0.0.1:18789/assets/zh-CN-BgJ8_lE3.js
+[2026-03-13T09:39:26.727Z] [INFO] GET /developer/favicon.svg → http://127.0.0.1:18793/favicon.svg
+[2026-03-13T09:39:26.729Z] [INFO] GET /developer/__openclaw/control-ui-config.json → http://127.0.0.1:18793/__openclaw/control-ui-config.json
+[2026-03-13T09:39:27.231Z] [INFO] GET /developer/favicon.svg → http://127.0.0.1:18793/favicon.svg
+[2026-03-13T09:39:29.596Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:40:30.673Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T09:40:59.133Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:42:01.492Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:43:05.341Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:44:06.934Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:45:11.505Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:46:20.947Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:47:31.054Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:48:47.155Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:50:02.544Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:51:19.209Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:52:34.184Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:53:49.881Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:55:06.794Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:56:21.483Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:56:41.447Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T09:56:41.481Z] [INFO] GET /developer/health → http://127.0.0.1:18793/health
+[2026-03-13T09:56:41.516Z] [INFO] GET /manager/health → http://127.0.0.1:18794/health
+[2026-03-13T09:56:41.552Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T09:57:40.055Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T09:58:58.761Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:00:10.910Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:01:28.012Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:02:42.567Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:03:57.372Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:04:47.656Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:05:37.458Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:06:52.921Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:07:10.373Z] [INFO] GET /developer/overview → http://127.0.0.1:18793/overview
+[2026-03-13T10:07:11.386Z] [INFO] GET /developer/assets/index-wxM3V0HM.js → http://127.0.0.1:18793/assets/index-wxM3V0HM.js
+[2026-03-13T10:07:11.391Z] [INFO] GET /developer/assets/index-E0j6Tkrc.css → http://127.0.0.1:18793/assets/index-E0j6Tkrc.css
+[2026-03-13T10:07:25.847Z] [INFO] GET /developer/favicon.svg → http://127.0.0.1:18793/favicon.svg
+[2026-03-13T10:07:25.850Z] [INFO] GET /developer/__openclaw/control-ui-config.json → http://127.0.0.1:18793/__openclaw/control-ui-config.json
+[2026-03-13T10:07:25.851Z] [INFO] GET /developer/assets/zh-CN-BgJ8_lE3.js → http://127.0.0.1:18793/assets/zh-CN-BgJ8_lE3.js
+[2026-03-13T10:07:26.477Z] [INFO] GET /developer/favicon.svg → http://127.0.0.1:18793/favicon.svg
+[2026-03-13T10:07:28.993Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:08:30.900Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:09:33.103Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:09:55.962Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:10:32.257Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T10:10:32.292Z] [INFO] GET /developer/health → http://127.0.0.1:18793/health
+[2026-03-13T10:10:32.337Z] [INFO] GET /manager/health → http://127.0.0.1:18794/health
+[2026-03-13T10:10:32.375Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:10:32.399Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:10:37.204Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:10:43.360Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:10:43.434Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:11:04.945Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:11:27.222Z] [INFO] 收到 SIGTERM 信号，正在关闭服务器...
+[2026-03-13T10:12:18.915Z] [INFO] ============================================================
+[2026-03-13T10:12:18.916Z] [INFO] OpenClaw HTTPS 代理服务器已启动
+[2026-03-13T10:12:18.916Z] [INFO] ============================================================
+[2026-03-13T10:12:18.916Z] [INFO] 监听地址: https://0.0.0.0:18788
+[2026-03-13T10:12:18.916Z] [INFO] Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net
+[2026-03-13T10:12:18.916Z] [INFO] 
+[2026-03-13T10:12:18.916Z] [INFO] 路由规则:
+[2026-03-13T10:12:18.916Z] [INFO]   /           → http://127.0.0.1:18789
+[2026-03-13T10:12:18.917Z] [INFO]   /developer/*   → http://127.0.0.1:18793
+[2026-03-13T10:12:18.917Z] [INFO]   /manager/*   → http://127.0.0.1:18794
+[2026-03-13T10:12:18.917Z] [INFO]   /operator/*   → http://127.0.0.1:18795
+[2026-03-13T10:12:18.917Z] [INFO] 
+[2026-03-13T10:12:18.917Z] [INFO] Slack Webhook URLs:
+[2026-03-13T10:12:18.917Z] [INFO]   默认:    https://moonvizmacbook-air.tailb7c03c.ts.net/slack/events
+[2026-03-13T10:12:18.917Z] [INFO]   /developer: https://moonvizmacbook-air.tailb7c03c.ts.net/developer/slack/events
+[2026-03-13T10:12:18.917Z] [INFO]   /manager: https://moonvizmacbook-air.tailb7c03c.ts.net/manager/slack/events
+[2026-03-13T10:12:18.917Z] [INFO]   /operator: https://moonvizmacbook-air.tailb7c03c.ts.net/operator/slack/events
+[2026-03-13T10:12:18.917Z] [INFO] ============================================================
+[2026-03-13T10:12:21.617Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:12:27.438Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T10:12:27.470Z] [INFO] GET /developer/health → http://127.0.0.1:18793/health
+[2026-03-13T10:12:27.506Z] [INFO] GET /manager/health → http://127.0.0.1:18794/health
+[2026-03-13T10:12:27.546Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:13:19.344Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:13:37.077Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:14:27.303Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:14:29.523Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T10:14:29.560Z] [INFO] GET /developer/health → http://127.0.0.1:18793/health
+[2026-03-13T10:14:29.596Z] [INFO] GET /manager/health → http://127.0.0.1:18794/health
+[2026-03-13T10:14:29.633Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:14:49.502Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:15:43.740Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:17:00.589Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:18:03.570Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T10:18:03.606Z] [INFO] GET /developer/health → http://127.0.0.1:18793/health
+[2026-03-13T10:18:03.641Z] [INFO] GET /manager/health → http://127.0.0.1:18794/health
+[2026-03-13T10:18:03.676Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:18:17.274Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:18:30.283Z] [INFO] GET /operator/health → http://127.0.0.1:18795/health
+[2026-03-13T10:19:31.944Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:20:49.281Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:22:03.383Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:23:23.710Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:24:14.669Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:25:29.854Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:26:46.165Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:28:03.855Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:29:20.150Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:30:35.773Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:31:53.375Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:32:18.381Z] [INFO] GET /developer/overview → http://127.0.0.1:18793/overview
+[2026-03-13T10:32:19.059Z] [INFO] GET /developer/overview → http://127.0.0.1:18793/overview
+[2026-03-13T10:32:19.620Z] [INFO] GET /developer/assets/index-wxM3V0HM.js → http://127.0.0.1:18793/assets/index-wxM3V0HM.js
+[2026-03-13T10:32:19.666Z] [INFO] GET /developer/assets/index-E0j6Tkrc.css → http://127.0.0.1:18793/assets/index-E0j6Tkrc.css
+[2026-03-13T10:32:26.377Z] [INFO] GET /developer/assets/zh-CN-BgJ8_lE3.js → http://127.0.0.1:18793/assets/zh-CN-BgJ8_lE3.js
+[2026-03-13T10:32:26.380Z] [INFO] GET /developer/favicon.svg → http://127.0.0.1:18793/favicon.svg
+[2026-03-13T10:32:26.382Z] [INFO] GET /developer/__openclaw/control-ui-config.json → http://127.0.0.1:18793/__openclaw/control-ui-config.json
+[2026-03-13T10:32:26.986Z] [INFO] GET /developer/favicon.svg → http://127.0.0.1:18793/favicon.svg
+[2026-03-13T10:32:29.174Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:33:32.457Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:34:28.605Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T10:34:29.704Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T10:34:29.914Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:34:37.779Z] [INFO] GET /developer/overview → http://127.0.0.1:18793/overview
+[2026-03-13T10:34:38.447Z] [INFO] GET /developer/assets/index-E0j6Tkrc.css → http://127.0.0.1:18793/assets/index-E0j6Tkrc.css
+[2026-03-13T10:34:38.452Z] [INFO] GET /developer/assets/index-wxM3V0HM.js → http://127.0.0.1:18793/assets/index-wxM3V0HM.js
+[2026-03-13T10:34:41.126Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:34:41.816Z] [INFO] GET /%E3%80%81 → http://127.0.0.1:18789/%E3%80%81
+[2026-03-13T10:34:44.664Z] [INFO] GET /assets/index-E0j6Tkrc.css → http://127.0.0.1:18789/assets/index-E0j6Tkrc.css
+[2026-03-13T10:34:44.669Z] [INFO] GET /assets/index-wxM3V0HM.js → http://127.0.0.1:18789/assets/index-wxM3V0HM.js
+[2026-03-13T10:34:48.989Z] [INFO] GET /__openclaw/control-ui-config.json → http://127.0.0.1:18789/__openclaw/control-ui-config.json
+[2026-03-13T10:34:48.990Z] [INFO] GET /favicon.svg → http://127.0.0.1:18789/favicon.svg
+[2026-03-13T10:34:48.996Z] [INFO] GET /assets/zh-CN-BgJ8_lE3.js → http://127.0.0.1:18789/assets/zh-CN-BgJ8_lE3.js
+[2026-03-13T10:34:49.625Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:34:49.678Z] [INFO] GET /favicon.svg → http://127.0.0.1:18789/favicon.svg
+[2026-03-13T10:35:32.093Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:36:34.008Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:36:57.178Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T10:37:01.575Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T10:37:04.274Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T10:37:13.981Z] [INFO] POST /slack/events → http://127.0.0.1:18789/slack/events
+[2026-03-13T10:37:36.904Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:38:39.492Z] [INFO] GET /developer → http://127.0.0.1:18793/
+[2026-03-13T10:39:30.937Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:40:18.564Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T10:40:18.771Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T10:40:32.814Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:40:48.276Z] [INFO] 收到 SIGTERM 信号，正在关闭服务器...
+[2026-03-13T10:40:53.381Z] [INFO] ============================================================
+[2026-03-13T10:40:53.382Z] [INFO] OpenClaw HTTPS 代理服务器已启动
+[2026-03-13T10:40:53.382Z] [INFO] ============================================================
+[2026-03-13T10:40:53.382Z] [INFO] 监听地址: https://0.0.0.0:18788
+[2026-03-13T10:40:53.382Z] [INFO] Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net
+[2026-03-13T10:40:53.382Z] [INFO] 
+[2026-03-13T10:40:53.382Z] [INFO] 路由规则:
+[2026-03-13T10:40:53.382Z] [INFO]   /           → http://127.0.0.1:18789
+[2026-03-13T10:40:53.382Z] [INFO]   /developer/*   → http://127.0.0.1:18793
+[2026-03-13T10:40:53.383Z] [INFO]   /manager/*   → http://127.0.0.1:18794
+[2026-03-13T10:40:53.383Z] [INFO]   /operator/*   → http://127.0.0.1:18795
+[2026-03-13T10:40:53.383Z] [INFO] 
+[2026-03-13T10:40:53.383Z] [INFO] Slack Webhook URLs:
+[2026-03-13T10:40:53.383Z] [INFO]   默认:    https://moonvizmacbook-air.tailb7c03c.ts.net/slack/events
+[2026-03-13T10:40:53.383Z] [INFO]   /developer: https://moonvizmacbook-air.tailb7c03c.ts.net/developer/slack/events
+[2026-03-13T10:40:53.383Z] [INFO]   /manager: https://moonvizmacbook-air.tailb7c03c.ts.net/manager/slack/events
+[2026-03-13T10:40:53.383Z] [INFO]   /operator: https://moonvizmacbook-air.tailb7c03c.ts.net/operator/slack/events
+[2026-03-13T10:40:53.383Z] [INFO] ============================================================
+[2026-03-13T10:40:57.690Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:41:46.104Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T10:42:42.321Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:42:47.357Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T10:42:49.012Z] [INFO] GET /developer/health → http://127.0.0.1:18793/health
+[2026-03-13T10:42:51.513Z] [INFO] GET /manager/health → http://127.0.0.1:18794/health
+[2026-03-13T10:43:53.385Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:45:00.543Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:46:16.143Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:47:32.024Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:48:48.570Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:50:11.960Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:50:28.658Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:50:36.029Z] [INFO] GET /overview → http://127.0.0.1:18789/overview
+[2026-03-13T10:50:36.950Z] [INFO] GET /assets/index-E0j6Tkrc.css → http://127.0.0.1:18789/assets/index-E0j6Tkrc.css
+[2026-03-13T10:50:36.956Z] [INFO] GET /assets/index-wxM3V0HM.js → http://127.0.0.1:18789/assets/index-wxM3V0HM.js
+[2026-03-13T10:50:38.581Z] [INFO] GET /favicon.svg → http://127.0.0.1:18789/favicon.svg
+[2026-03-13T10:50:38.583Z] [INFO] GET /__openclaw/control-ui-config.json → http://127.0.0.1:18789/__openclaw/control-ui-config.json
+[2026-03-13T10:50:38.589Z] [INFO] GET /assets/zh-CN-BgJ8_lE3.js → http://127.0.0.1:18789/assets/zh-CN-BgJ8_lE3.js
+[2026-03-13T10:50:39.207Z] [INFO] GET /favicon.svg → http://127.0.0.1:18789/favicon.svg
+[2026-03-13T10:50:41.998Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:51:04.601Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:51:43.255Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:51:59.927Z] [INFO] 收到 SIGTERM 信号，正在关闭服务器...
+[2026-03-13T10:51:59.948Z] [INFO] 收到 SIGTERM 信号，正在关闭服务器...
+[2026-03-13T10:52:05.060Z] [INFO] ============================================================
+[2026-03-13T10:52:05.062Z] [INFO] OpenClaw HTTPS/WebSocket 代理服务器已启动
+[2026-03-13T10:52:05.062Z] [INFO] ============================================================
+[2026-03-13T10:52:05.062Z] [INFO] 监听地址: https://0.0.0.0:18788
+[2026-03-13T10:52:05.062Z] [INFO] Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net
+[2026-03-13T10:52:05.062Z] [INFO] 
+[2026-03-13T10:52:05.062Z] [INFO] 支持协议: HTTPS, WebSocket (WSS)
+[2026-03-13T10:52:05.062Z] [INFO] 路由规则:
+[2026-03-13T10:52:05.062Z] [INFO]   /           → http://127.0.0.1:18789
+[2026-03-13T10:52:05.062Z] [INFO]   /developer/*   → http://127.0.0.1:18793
+[2026-03-13T10:52:05.062Z] [INFO]   /manager/*   → http://127.0.0.1:18794
+[2026-03-13T10:52:05.062Z] [INFO]   /operator/*   → http://127.0.0.1:18795
+[2026-03-13T10:52:05.062Z] [INFO] ============================================================
+[2026-03-13T10:52:10.376Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:52:14.900Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:52:15.140Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:52:20.710Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:52:27.727Z] [INFO] GET / → http://127.0.0.1:18789/
+[2026-03-13T10:52:30.521Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:52:41.783Z] [INFO] GET /health → http://127.0.0.1:18789/health
+[2026-03-13T10:52:45.394Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:52:50.753Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:53:04.117Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:53:22.686Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:53:41.046Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:53:59.723Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:54:17.693Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:54:35.507Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:54:53.830Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:55:12.146Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:55:30.505Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:55:48.473Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:56:06.911Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:56:07.642Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:56:09.138Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:56:13.677Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:56:19.052Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:56:25.314Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:56:34.443Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:56:51.177Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:57:09.121Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:57:25.952Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:57:25.954Z] [ERROR] WebSocket 代理错误: connect ECONNREFUSED 127.0.0.1:18789
+[2026-03-13T10:57:43.642Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:57:43.643Z] [ERROR] WebSocket 代理错误: connect ECONNREFUSED 127.0.0.1:18789
+[2026-03-13T10:58:01.652Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:58:01.653Z] [ERROR] WebSocket 代理错误: connect ECONNREFUSED 127.0.0.1:18789
+[2026-03-13T10:58:05.450Z] [INFO] 收到 SIGTERM 信号，正在关闭服务器...
+[2026-03-13T10:58:05.450Z] [INFO] 服务器已关闭
+[2026-03-13T10:58:05.550Z] [INFO] ============================================================
+[2026-03-13T10:58:05.551Z] [INFO] OpenClaw HTTPS/WebSocket 代理服务器已启动
+[2026-03-13T10:58:05.551Z] [INFO] ============================================================
+[2026-03-13T10:58:05.551Z] [INFO] 监听地址: https://0.0.0.0:18788
+[2026-03-13T10:58:05.551Z] [INFO] Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net
+[2026-03-13T10:58:05.551Z] [INFO] 
+[2026-03-13T10:58:05.551Z] [INFO] 支持协议: HTTPS, WebSocket (WSS)
+[2026-03-13T10:58:05.551Z] [INFO] 路由规则:
+[2026-03-13T10:58:05.551Z] [INFO]   /           → http://127.0.0.1:18789
+[2026-03-13T10:58:05.552Z] [INFO]   /developer/*   → http://127.0.0.1:18793
+[2026-03-13T10:58:05.552Z] [INFO]   /manager/*   → http://127.0.0.1:18794
+[2026-03-13T10:58:05.552Z] [INFO]   /operator/*   → http://127.0.0.1:18795
+[2026-03-13T10:58:05.552Z] [INFO] ============================================================
+[2026-03-13T10:58:21.195Z] [INFO] WebSocket / → http://127.0.0.1:18789/
+[2026-03-13T10:58:21.203Z] [ERROR] WebSocket 代理错误: connect ECONNREFUSED 127.0.0.1:18789
+[2026-03-13T12:44:49.354Z] [INFO] 收到 SIGTERM 信号，正在关闭服务器...
+[2026-03-13T12:44:49.357Z] [INFO] 服务器已关闭
+[2026-03-13T17:32:48.494Z] [INFO] ============================================================
+[2026-03-13T17:32:49.521Z] [INFO] OpenClaw HTTPS/WebSocket 代理服务器已启动
+[2026-03-13T17:32:49.521Z] [INFO] ============================================================
+[2026-03-13T17:32:49.522Z] [INFO] 监听地址: https://0.0.0.0:18788
+[2026-03-13T17:32:49.522Z] [INFO] Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net
+[2026-03-13T17:32:49.522Z] [INFO] 
+[2026-03-13T17:32:49.522Z] [INFO] 支持协议: HTTPS, WebSocket (WSS)
+[2026-03-13T17:32:49.522Z] [INFO] 路由规则:
+[2026-03-13T17:32:49.527Z] [INFO]   /           → http://127.0.0.1:18789
+[2026-03-13T17:32:49.528Z] [INFO]   /developer/*   → http://127.0.0.1:18793
+[2026-03-13T17:32:49.528Z] [INFO]   /manager/*   → http://127.0.0.1:18794
+[2026-03-13T17:32:49.528Z] [INFO]   /operator/*   → http://127.0.0.1:18795
+[2026-03-13T17:32:49.528Z] [INFO] ============================================================
+[2026-03-13T18:33:19.741Z] [INFO] 收到 SIGTERM 信号，正在关闭服务器...
+[2026-03-13T18:33:19.743Z] [INFO] 服务器已关闭
+[2026-03-16T06:24:01.427Z] [INFO] ============================================================
+[2026-03-16T06:24:01.441Z] [INFO] OpenClaw HTTPS/WebSocket 代理服务器已启动
+[2026-03-16T06:24:01.442Z] [INFO] ============================================================
+[2026-03-16T06:24:01.442Z] [INFO] 监听地址: https://0.0.0.0:18788
+[2026-03-16T06:24:01.442Z] [INFO] Tailscale: https://moonvizmacbook-air.tailb7c03c.ts.net
+[2026-03-16T06:24:01.442Z] [INFO] 
+[2026-03-16T06:24:01.442Z] [INFO] 支持协议: HTTPS, WebSocket (WSS)
+[2026-03-16T06:24:01.442Z] [INFO] 路由规则:
+[2026-03-16T06:24:01.442Z] [INFO]   /           → http://127.0.0.1:18789
+[2026-03-16T06:24:01.443Z] [INFO]   /developer/*   → http://127.0.0.1:18793
+[2026-03-16T06:24:01.443Z] [INFO]   /manager/*   → http://127.0.0.1:18794
+[2026-03-16T06:24:01.443Z] [INFO]   /operator/*   → http://127.0.0.1:18795
+[2026-03-16T06:24:01.443Z] [INFO] ============================================================
+[2026-03-16T12:55:10.065Z] [INFO] 收到 SIGTERM 信号，正在关闭服务器...
+[2026-03-16T12:55:10.068Z] [INFO] 服务器已关闭

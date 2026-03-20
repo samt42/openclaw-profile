@@ -1,0 +1,10 @@
+gateway:
+  port: 18788
+  bind: 0.0.0.0
+tls:
+  enabled: true
+  cert_file: /Users/moonviz/.openclaw/certs/cert.pem
+  key_file: /Users/moonviz/.openclaw/certs/key.pem
+log:
+  level: info
+  path: /Users/moonviz/.openclaw/logs/gateway.log

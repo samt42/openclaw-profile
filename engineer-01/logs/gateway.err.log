@@ -1,0 +1,1851 @@
+2026-03-13T18:57:38.668+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-13T18:57:38.732+08:00 [browser/server] Chrome extension relay init failed for profile "chrome": Error: extension relay requires gateway auth token (set gateway.auth.token or OPENCLAW_GATEWAY_TOKEN)
+2026-03-13T18:57:42.042+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-13T18:57:42.048+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+2026-03-13T18:57:59.582+08:00 [reload] config change requires gateway restart (gateway.tls.enabled)
+2026-03-13T18:58:01.792+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-13T18:58:01.852+08:00 [browser/server] Chrome extension relay init failed for profile "chrome": Error: extension relay requires gateway auth token (set gateway.auth.token or OPENCLAW_GATEWAY_TOKEN)
+2026-03-13T18:58:05.188+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-13T18:58:05.193+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+2026-03-13T18:58:08.307+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-13T18:58:08.380+08:00 [browser/server] Chrome extension relay init failed for profile "chrome": Error: extension relay requires gateway auth token (set gateway.auth.token or OPENCLAW_GATEWAY_TOKEN)
+2026-03-13T18:58:11.530+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-13T18:58:11.536+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+2026-03-13T19:14:35.806+08:00 [reload] config change requires gateway restart (gateway.tls.enabled)
+2026-03-13T19:14:38.697+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-13T19:14:38.784+08:00 [browser/server] Chrome extension relay init failed for profile "chrome": Error: extension relay requires gateway auth token (set gateway.auth.token or OPENCLAW_GATEWAY_TOKEN)
+2026-03-13T19:14:42.502+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-13T19:14:42.568+08:00 [browser/server] Chrome extension relay init failed for profile "chrome": Error: extension relay requires gateway auth token (set gateway.auth.token or OPENCLAW_GATEWAY_TOKEN)
+2026-03-13T19:14:45.646+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-13T19:14:45.652+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+openclaw requires Node >=22.16.0.
+Detected: node 22.14.0 (exec: /Users/moonviz/.local/bin/node).
+PATH searched: /Users/moonviz/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
+2026-03-13T20:06:08.466+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-13T20:06:09.296+08:00 [browser/server] Chrome extension relay init failed for profile "chrome": Error: extension relay requires gateway auth token (set gateway.auth.token or OPENCLAW_GATEWAY_TOKEN)
+2026-03-13T20:06:12.429+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-13T20:06:12.435+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+2026-03-14T01:33:04.398+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:33:04.460+08:00 Port 18795 is already in use.
+2026-03-14T01:33:04.461+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:33:04.462+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:33:04.463+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:33:04.463+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:33:04.478+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:33:04.478+08:00 Tip: openclaw gateway stop
+2026-03-14T01:33:04.479+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:33:13.192+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:33:13.286+08:00 Port 18795 is already in use.
+2026-03-14T01:33:13.287+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:33:13.288+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:33:13.288+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:33:13.289+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:33:13.293+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:33:13.294+08:00 Tip: openclaw gateway stop
+2026-03-14T01:33:13.297+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:33:22.904+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:33:22.972+08:00 Port 18795 is already in use.
+2026-03-14T01:33:22.974+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:33:22.976+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:33:22.977+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:33:22.978+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:33:22.984+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:33:22.985+08:00 Tip: openclaw gateway stop
+2026-03-14T01:33:22.985+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:33:32.776+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:33:32.837+08:00 Port 18795 is already in use.
+2026-03-14T01:33:32.838+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:33:32.838+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:33:32.839+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:33:32.839+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:33:32.843+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:33:32.844+08:00 Tip: openclaw gateway stop
+2026-03-14T01:33:32.845+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:33:43.249+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:33:43.322+08:00 Port 18795 is already in use.
+2026-03-14T01:33:43.323+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:33:43.323+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:33:43.324+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:33:43.324+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:33:43.330+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:33:43.331+08:00 Tip: openclaw gateway stop
+2026-03-14T01:33:43.332+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:33:52.156+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:33:52.233+08:00 Port 18795 is already in use.
+2026-03-14T01:33:52.234+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:33:52.235+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:33:52.235+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:33:52.236+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:33:52.240+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:33:52.241+08:00 Tip: openclaw gateway stop
+2026-03-14T01:33:52.242+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:34:01.038+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:34:01.098+08:00 Port 18795 is already in use.
+2026-03-14T01:34:01.099+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:34:01.100+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:34:01.100+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:34:01.101+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:34:01.105+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:34:01.106+08:00 Tip: openclaw gateway stop
+2026-03-14T01:34:01.106+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:34:09.743+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:34:09.803+08:00 Port 18795 is already in use.
+2026-03-14T01:34:09.804+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:34:09.804+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:34:09.805+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:34:09.805+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:34:09.810+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:34:09.811+08:00 Tip: openclaw gateway stop
+2026-03-14T01:34:09.812+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:34:18.238+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:34:18.299+08:00 Port 18795 is already in use.
+2026-03-14T01:34:18.299+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:34:18.300+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:34:18.301+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:34:18.301+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:34:18.306+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:34:18.307+08:00 Tip: openclaw gateway stop
+2026-03-14T01:34:18.307+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:34:26.759+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:34:26.821+08:00 Port 18795 is already in use.
+2026-03-14T01:34:26.822+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:34:26.822+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:34:26.823+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:34:26.824+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:34:26.828+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:34:26.829+08:00 Tip: openclaw gateway stop
+2026-03-14T01:34:26.830+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:34:35.350+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:34:35.417+08:00 Port 18795 is already in use.
+2026-03-14T01:34:35.418+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:34:35.419+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:34:35.419+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:34:35.420+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:34:35.424+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:34:35.425+08:00 Tip: openclaw gateway stop
+2026-03-14T01:34:35.426+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:34:43.819+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:34:43.883+08:00 Port 18795 is already in use.
+2026-03-14T01:34:43.884+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:34:43.885+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:34:43.885+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:34:43.886+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:34:43.891+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:34:43.892+08:00 Tip: openclaw gateway stop
+2026-03-14T01:34:43.893+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:34:52.418+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:34:52.479+08:00 Port 18795 is already in use.
+2026-03-14T01:34:52.480+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:34:52.481+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:34:52.481+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:34:52.482+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:34:52.487+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:34:52.487+08:00 Tip: openclaw gateway stop
+2026-03-14T01:34:52.488+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:35:00.931+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:35:00.993+08:00 Port 18795 is already in use.
+2026-03-14T01:35:00.994+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:35:00.994+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:35:00.995+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:35:00.996+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:35:01.000+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:35:01.001+08:00 Tip: openclaw gateway stop
+2026-03-14T01:35:01.002+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:35:09.676+08:00 Gateway failed to start: gateway already running (pid 65577); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-14T01:35:09.744+08:00 Port 18795 is already in use.
+2026-03-14T01:35:09.745+08:00 - pid 65273 moonviz: openclaw-gateway (127.0.0.1:18795)
+2026-03-14T01:35:09.746+08:00 - pid 65577 moonviz: openclaw-gateway (*:18795)
+2026-03-14T01:35:09.746+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-14T01:35:09.747+08:00 - Multiple listeners detected; ensure only one gateway/tunnel per port unless intentionally running isolated profiles.
+2026-03-14T01:35:09.754+08:00 Gateway service appears loaded. Stop it first.
+2026-03-14T01:35:09.755+08:00 Tip: openclaw gateway stop
+2026-03-14T01:35:09.755+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+2026-03-14T01:35:14.570+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T01:35:18.943+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (4)"
+2026-03-14T01:35:18.953+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(4)"
+2026-03-14T01:35:36.490+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T01:35:40.750+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (4)"
+2026-03-14T01:35:40.754+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(4)"
+2026-03-14T01:36:41.153+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T01:36:45.370+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (4)"
+2026-03-14T01:36:45.373+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(4)"
+2026-03-14T01:38:32.775+08:00 [reload] config reload skipped (invalid config): browser: Unrecognized key: "port"
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- browser: Unrecognized key: "port"
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - browser: Unrecognized key: "port"
+
+Run: openclaw doctor --fix
+2026-03-14T01:39:39.200+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T01:39:44.751+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (5)"
+2026-03-14T01:39:44.753+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(5)"
+2026-03-14T01:40:07.374+08:00 [reload] config change requires gateway restart (gateway.port)
+2026-03-14T01:40:10.884+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T01:40:14.176+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-14T01:40:14.182+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+2026-03-14T01:40:30.956+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T01:40:35.657+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (4)"
+2026-03-14T01:40:35.661+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(4)"
+2026-03-14T01:41:21.055+08:00 [reload] config change requires gateway restart (gateway.port)
+2026-03-14T01:41:27.067+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T01:41:31.669+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (4)"
+2026-03-14T01:41:31.674+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(4)"
+2026-03-14T01:41:46.077+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T01:41:51.723+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (5)"
+2026-03-14T01:41:51.726+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(5)"
+2026-03-14T02:12:38.078+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T02:12:41.438+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-14T02:12:41.442+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+2026-03-14T02:15:47.043+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T02:15:50.373+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-14T02:15:50.379+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+2026-03-14T02:16:16.865+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T02:16:20.693+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-14T02:16:20.698+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+2026-03-14T02:19:38.517+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T02:19:41.816+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-14T02:19:41.821+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+2026-03-14T02:25:47.933+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-14T02:25:50.184+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (2)"
+2026-03-14T02:25:50.190+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(2)"
+2026-03-14T02:26:14.741+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T14:24:07.100+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T14:24:17.899+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (7)"
+2026-03-16T14:24:17.903+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(7)"
+2026-03-16T18:37:20.528+08:00 [reload] config change requires gateway restart (gateway.controlUi.allowedOrigins, gateway.controlUi.basePath)
+2026-03-16T18:37:23.083+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T18:37:25.073+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (2)"
+2026-03-16T18:37:25.078+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(2)"
+2026-03-16T18:37:33.729+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T18:37:41.440+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (7)"
+2026-03-16T18:37:41.449+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(7)"
+2026-03-16T18:44:03.947+08:00 [reload] config change requires gateway restart (gateway.controlUi.basePath)
+2026-03-16T18:44:06.723+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T18:44:09.976+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T18:44:16.826+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (6)"
+2026-03-16T18:44:16.831+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(6)"
+2026-03-16T19:14:26.935+08:00 [reload] config change requires gateway restart (channels.slack.webhookPath, channels.slack.enabled)
+2026-03-16T19:14:29.440+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T19:14:33.352+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T19:14:38.151+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: header x-slack-signature did not have the expected type (received undefined, expected string)
+2026-03-16T19:14:39.870+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (6)"
+2026-03-16T19:14:39.874+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(6)"
+2026-03-16T19:14:51.678+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: header x-slack-signature did not have the expected type (received undefined, expected string)
+2026-03-16T19:17:07.899+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: signature mismatch
+2026-03-16T19:20:44.987+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T19:20:47.190+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (2)"
+2026-03-16T19:20:47.194+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(2)"
+2026-03-16T19:36:12.901+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (9)"
+2026-03-16T19:36:12.905+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(9)"
+2026-03-16T19:47:13.120+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: signature mismatch
+2026-03-16T19:50:02.283+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: signature mismatch
+2026-03-16T19:50:06.245+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: signature mismatch
+2026-03-16T19:52:46.041+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T19:52:56.228+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (9)"
+2026-03-16T19:52:56.234+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(9)"
+2026-03-16T19:53:35.700+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T19:53:42.107+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (5)"
+2026-03-16T19:53:42.112+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(5)"
+2026-03-16T21:13:12.120+08:00 [reload] config reload skipped (invalid config): channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+2026-03-16T21:13:15.923+08:00 Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+2026-03-16T21:13:15.927+08:00 [gateway] shutdown error: Error: Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:
+- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+Invalid config at /Users/moonviz/.openclaw-operator/openclaw.json:\n- channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+Config invalid
+File: ~/.openclaw-operator/openclaw.json
+Problem:
+  - channels.slack.streaming: Invalid input (allowed: true, false, "off", "partial", "block", "progress")
+
+Run: openclaw doctor --fix
+2026-03-16T21:21:15.399+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-16T21:29:52.687+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-17T00:24:57.138+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-17T01:23:36.993+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: header x-slack-signature did not have the expected type (received undefined, expected string)
+2026-03-17T01:30:03.523+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: header x-slack-signature did not have the expected type (received undefined, expected string)
+2026-03-17T01:36:35.050+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: signature mismatch
+2026-03-17T16:03:00.944+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-17T16:03:07.232+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (5)"
+2026-03-17T16:03:07.238+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(5)"
+2026-03-17T17:03:44.941+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-17T17:03:50.256+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (5)"
+2026-03-17T17:03:50.261+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(5)"
+2026-03-17T17:12:55.987+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-17T17:13:01.707+08:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (4)"
+2026-03-17T17:13:01.713+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(4)"
+2026-03-17T17:14:58.301+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: header x-slack-signature did not have the expected type (received undefined, expected string)
+2026-03-18T02:21:21.820+08:00 [WARN]  web-api:WebClient:332 http request failed Client network socket disconnected before secure TLS connection was established
+2026-03-18T11:47:41.124+08:00 [WARN]   Failed to parse and verify the request data: Failed to verify authenticity: header x-slack-signature did not have the expected type (received undefined, expected string)
+2026-03-18T08:44:47.053-04:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-18T08:44:52.238-04:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (3)"
+2026-03-18T08:44:52.240-04:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(3)"
+2026-03-18T11:41:49.681-04:00 [WARN]  web-api:WebClient:177 http request failed Client network socket disconnected before secure TLS connection was established
+2026-03-18T11:41:52.663-04:00 [WARN]  web-api:WebClient:177 http request failed Client network socket disconnected before secure TLS connection was established
+2026-03-18T11:41:56.779-04:00 [WARN]  web-api:WebClient:177 http request failed Client network socket disconnected before secure TLS connection was established
+2026-03-18T16:44:53.195-04:00 [WARN]  web-api:WebClient:480 http request failed Client network socket disconnected before secure TLS connection was established
+2026-03-19T04:22:49.828-04:00 [WARN]  web-api:WebClient:1178 http request failed getaddrinfo ENOTFOUND slack.com
+2026-03-19T10:04:50.564-04:00 [WARN]  web-api:WebClient:1520 http request failed getaddrinfo ENOTFOUND slack.com
+2026-03-19T10:04:51.236-04:00 [WARN]  web-api:WebClient:1520 http request failed getaddrinfo ENOTFOUND slack.com
+2026-03-20T01:28:56.376-07:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-20T01:29:04.615-07:00 [bonjour] gateway name conflict resolved; newName="MoonViz的MacBook Air (OpenClaw) (5)"
+2026-03-20T01:29:04.619-07:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(5)"

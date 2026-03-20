@@ -1,0 +1,10 @@
+{
+  "_comment": "Slack App 配置 - 创建 App 后从 https://api.slack.com/apps 获取",
+  "appName": "OpenClaw Bot",
+  "botToken": "xoxb-10598899674563-10674268178689-Xs0P0tzXCfu64WX5Zp0WqlBN",
+  "signingSecret": "594265b1960a495bea584bdde599c500",
+  "events": {
+    "enabled": true,
+    "path": "/slack/events"
+  }
+}
