@@ -83,3 +83,30 @@
 2026-03-20T01:28:56.774-07:00 [browser/server] Browser control listening on http://127.0.0.1:18812/ (auth=password)
 2026-03-20T01:28:56.778-07:00 [slack] [default] starting provider
 2026-03-20T01:28:58.288-07:00 [slack] http mode listening at /slack/events
+2026-03-21T01:43:34.348-07:00 [canvas] host mounted at http://0.0.0.0:18810/__openclaw__/canvas/ (root /Users/moonviz/.openclaw-product-manager-01/canvas)
+2026-03-21T01:43:34.396-07:00 [heartbeat] started
+2026-03-21T01:43:34.397-07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-21T01:43:34.399-07:00 [gateway] agent model: kimi-coding/k2p5
+2026-03-21T01:43:34.400-07:00 [gateway] listening on ws://0.0.0.0:18810 (PID 1383)
+2026-03-21T01:43:34.401-07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-21.log
+2026-03-21T01:43:34.475-07:00 [browser/server] Browser control listening on http://127.0.0.1:18812/ (auth=password)
+2026-03-21T01:43:34.477-07:00 [slack] [default] starting provider
+2026-03-21T01:43:35.528-07:00 [slack] http mode listening at /slack/events
+2026-03-22T05:51:13.627-07:00 [gateway] signal SIGTERM received
+2026-03-22T05:51:13.630-07:00 [gateway] received SIGTERM; shutting down
+2026-03-22T05:51:13.972-07:00 [gmail-watcher] gmail watcher stopped
+2026-03-22T05:51:13.982-07:00 [gateway] signal SIGTERM received
+2026-03-22T05:51:13.996-07:00 [gateway] received SIGTERM during shutdown; ignoring
+2026-03-22T05:52:50.812-07:00 [canvas] host mounted at http://0.0.0.0:18810/__openclaw__/canvas/ (root /Users/moonviz/.openclaw-product-manager-01/canvas)
+2026-03-22T05:52:50.923-07:00 [heartbeat] started
+2026-03-22T05:52:50.926-07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-22T05:52:50.929-07:00 [gateway] agent model: kimi-coding/k2p5
+2026-03-22T05:52:50.929-07:00 [gateway] listening on ws://0.0.0.0:18810 (PID 904)
+2026-03-22T05:52:50.932-07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-22.log
+2026-03-22T05:52:51.014-07:00 [browser/server] Browser control listening on http://127.0.0.1:18812/ (auth=password)
+2026-03-22T05:52:51.020-07:00 [slack] [default] starting provider
+2026-03-22T05:52:55.059-07:00 [slack] http mode listening at /slack/events
+2026-03-23T21:43:03.034-07:00 [slack] delivered reply to channel:C0AP4BXLS80
+2026-03-23T21:44:05.981-07:00 [slack] delivered reply to channel:C0AP4BXLS80
+2026-03-23T21:44:06.384-07:00 [slack] delivered reply to channel:C0AP4BXLS80
+2026-03-23T21:44:06.800-07:00 [slack] delivered reply to channel:C0AP4BXLS80

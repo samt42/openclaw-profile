@@ -1,0 +1,52 @@
+# OpenClaw Profile Gitignore
+
+# Logs
+logs/
+*.log
+*.err.log
+
+# Session data (transient)
+agents/*/sessions/*.jsonl
+agents/*/sessions/sessions.json
+
+# Memory databases
+memory/*.sqlite
+memory/*.sqlite-journal
+memory/*.sqlite-wal
+
+# Browser data (Chromium user data)
+browser/
+
+# Device pairing (sensitive/transient)
+devices/paired.json
+devices/pending.json
+
+# Credentials (sensitive)
+credentials/*.json
+identity/device-auth.json
+agents/*/agent/auth-profiles.json
+
+# Certificates (sensitive)
+certs/*.key
+certs/*.crt
+certs/*.pem
+
+# Temporary/Auto-generated files
+update-check.json
+exec-approvals.json
+cron/jobs.json
+slack.json
+
+# Backups
+backup/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
