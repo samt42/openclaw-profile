@@ -1,0 +1,64 @@
+@startuml
+!theme plain
+skinparam backgroundColor #FEFEFE
+skinparam handwritten false
+
+title FEAT-001: 邮箱注册业务流程
+
+|用户|
+|前端|
+|后端|
+|数据库|
+|邮件服务|
+
+|用户|
+start
+:访问注册页;
+:填写表单
+(邮箱、密码、确认密码);
+:提交注册;
+
+|前端|
+:发送注册请求;
+
+|后端|
+:接收请求;
+:参数校验;
+if (校验通过?) then (否)
+  :返回错误提示;
+  |前端|
+  :显示错误信息;
+  stop
+else (是)
+  :检查邮箱是否已注册;
+  |数据库|
+  :查询 users 表;
+  |后端|
+  if (邮箱已存在?) then (是)
+    :返回 EMAIL_EXISTS 错误;
+    |前端|
+    :显示"该邮箱已被注册";
+    stop
+  else (否)
+    :bcrypt 加密密码;
+    |数据库|
+    :创建用户记录;
+    |后端|
+    :生成验证令牌;
+    |邮件服务|
+    :发送验证邮件;
+    |后端|
+    :生成 Access Token;
+    :返回注册成功;
+
+    |前端|
+    :保存 Token;
+    :跳转首页;
+
+    |用户|
+    :自动登录成功;
+    stop
+  endif
+endif
+
+@enduml

@@ -1,0 +1,443 @@
+openapi: 3.0.3
+info:
+  title: 用户中心 - SSO API
+  description: |
+    用户中心单点登录(SSO)服务 API 接口规范，包括登录、Token 校验、Token 刷新、登出、Ticket 换取等接口。
+
+    **相关文档**:
+    - [SSO 技术方案](../技术方案/用户中心%20-%20SSO技术方案.md)
+    - [SSO API 协议](../协议/用户中心%20-%20SSO%20API协议.md)
+  version: 1.0.0
+  contact:
+    name: 技术团队
+
+servers:
+  - url: https://sso.example.com
+    description: 生产环境
+  - url: https://sso-staging.example.com
+    description: 测试环境
+
+tags:
+  - name: 认证
+    description: 登录、登出相关接口
+  - name: Token 管理
+    description: Token 校验、刷新相关接口
+  - name: 用户信息
+    description: 用户信息查询相关接口
+
+paths:
+  /login:
+    get:
+      summary: 统一登录页面
+      description: 返回 HTML 登录页面，用于浏览器跳转登录
+      tags:
+        - 认证
+      parameters:
+        - name: app_id
+          in: query
+          description: 应用标识
+          required: true
+          schema:
+            type: string
+            example: system_a
+        - name: return_url
+          in: query
+          description: 登录成功后跳转的回源地址（需 URL 编码）
+          required: true
+          schema:
+            type: string
+            example: https%3A%2F%2Fa.example.com%2Fdashboard
+      responses:
+        '200':
+          description: 返回 HTML 登录页面
+          content:
+            text/html:
+              schema:
+                type: string
+        '400':
+          description: 参数错误（缺少 app_id 或 return_url）
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+    post:
+      summary: 账号密码登录
+      description: 提交账号密码进行登录认证
+      tags:
+        - 认证
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+      responses:
+        '200':
+          description: 登录成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '401':
+          description: 登录失败（用户名或密码错误）
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /verify:
+    post:
+      summary: 验证 Token 有效性
+      description: 验证 Access Token 是否有效，返回用户信息和过期时间
+      tags:
+        - Token 管理
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VerifyRequest'
+      responses:
+        '200':
+          description: 验证成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VerifyResponse'
+        '401':
+          description: Token 已过期或无效
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /refresh:
+    post:
+      summary: 刷新 Access Token
+      description: 使用 Refresh Token 换取新的 Access Token
+      tags:
+        - Token 管理
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RefreshRequest'
+      responses:
+        '200':
+          description: 刷新成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RefreshResponse'
+        '401':
+          description: Refresh Token 无效或已过期
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /logout:
+    post:
+      summary: 单点登出
+      description: 登出当前设备或所有设备，清除 Token 并通知其他系统
+      tags:
+        - 认证
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LogoutRequest'
+      responses:
+        '200':
+          description: 登出成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessResponse'
+
+  /exchange:
+    post:
+      summary: 用 ticket 换取 Token
+      description: 跨域登录场景下，使用一次性 ticket 换取用户信息及 Token
+      tags:
+        - Token 管理
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ExchangeRequest'
+      responses:
+        '200':
+          description: 换取成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '400':
+          description: Ticket 无效或已过期
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /userinfo:
+    get:
+      summary: 获取当前登录用户信息
+      description: 根据 Token 获取当前登录用户的详细信息
+      tags:
+        - 用户信息
+      parameters:
+        - name: Authorization
+          in: header
+          description: Bearer Token
+          required: true
+          schema:
+            type: string
+            example: Bearer xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+      responses:
+        '200':
+          description: 获取成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserInfoResponse'
+        '401':
+          description: Token 无效或已过期
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    # 请求体
+    LoginRequest:
+      type: object
+      required:
+        - username
+        - password
+        - app_id
+        - return_url
+      properties:
+        username:
+          type: string
+          description: 用户名
+          example: zhangsan
+        password:
+          type: string
+          description: 密码
+          example: xxxxxxxx
+        app_id:
+          type: string
+          description: 应用标识
+          example: system_a
+        return_url:
+          type: string
+          description: 登录成功后跳转的回源地址
+          example: https://a.example.com/dashboard
+        remember_me:
+          type: boolean
+          description: 是否记住登录状态（7天免登）
+          default: false
+
+    VerifyRequest:
+      type: object
+      required:
+        - token
+        - app_id
+      properties:
+        token:
+          type: string
+          description: Access Token
+          example: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+        app_id:
+          type: string
+          description: 应用标识
+          example: system_a
+
+    RefreshRequest:
+      type: object
+      required:
+        - refresh_token
+      properties:
+        refresh_token:
+          type: string
+          description: Refresh Token
+          example: rt_xxxxxxxxxxxx
+
+    LogoutRequest:
+      type: object
+      properties:
+        all_devices:
+          type: boolean
+          description: 是否登出所有设备（默认为 false，仅登出当前设备）
+          default: false
+
+    ExchangeRequest:
+      type: object
+      required:
+        - ticket
+        - app_id
+      properties:
+        ticket:
+          type: string
+          description: 一次性临时票据（5分钟有效）
+          example: tk_xxxxxxxxxxxx
+        app_id:
+          type: string
+          description: 应用标识
+          example: system_a
+
+    # 响应体
+    LoginResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          example: 0
+        data:
+          type: object
+          properties:
+            token:
+              type: string
+              description: Access Token
+              example: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+            refresh_token:
+              type: string
+              description: Refresh Token
+              example: rt_xxxxxxxxxxxx
+            expires_in:
+              type: integer
+              description: Token 有效期（秒）
+              example: 7200
+            user:
+              $ref: '#/components/schemas/User'
+            redirect_url:
+              type: string
+              description: 登录成功后跳转的 URL（含 ticket）
+              example: https://a.example.com/callback?ticket=xxxxx
+
+    VerifyResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          example: 0
+        data:
+          type: object
+          properties:
+            valid:
+              type: boolean
+              description: Token 是否有效
+              example: true
+            user:
+              $ref: '#/components/schemas/User'
+            expires_at:
+              type: integer
+              description: Token 过期时间戳
+              example: 1710123456
+            will_expire:
+              type: boolean
+              description: Token 即将过期（< 10分钟）
+              example: false
+
+    RefreshResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          example: 0
+        data:
+          type: object
+          properties:
+            token:
+              type: string
+              description: 新的 Access Token
+              example: 新的AccessToken
+            refresh_token:
+              type: string
+              description: 新的 Refresh Token
+              example: 新的RefreshToken
+            expires_at:
+              type: integer
+              description: Token 过期时间戳
+              example: 1710123456
+
+    UserInfoResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          example: 0
+        data:
+          $ref: '#/components/schemas/User'
+
+    SuccessResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          example: 0
+        message:
+          type: string
+          example: success
+
+    ErrorResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          description: 错误码
+          example: 401001
+        message:
+          type: string
+          description: 错误信息
+          example: 用户名或密码错误
+
+    # 通用模型
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          description: 用户ID
+          example: "10001"
+        username:
+          type: string
+          description: 用户名
+          example: zhangsan
+        email:
+          type: string
+          description: 邮箱
+          example: zhangsan@example.com
+        phone:
+          type: string
+          description: 手机号
+          example: "138****8888"
+        avatar:
+          type: string
+          description: 头像URL
+          example: https://example.com/avatar.jpg
+        status:
+          type: string
+          description: 用户状态
+          enum: [active, inactive, suspended]
+          example: active
+        created_at:
+          type: string
+          format: date-time
+          description: 注册时间
+          example: "2024-01-15T08:30:00Z"
+
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: 通过 /login 或 /refresh 接口获取的 Access Token
+
+security:
+  - BearerAuth: []

@@ -1,0 +1,41 @@
+@startuml
+!theme plain
+skinparam backgroundColor #FEFEFE
+skinparam componentStyle rectangle
+
+title MODULE-001: 用户中心模块关系图
+
+package "用户中心" {
+    [账户管理] as AccountMgr
+    [认证授权] as AuthMgr
+    [资料管理] as ProfileMgr
+}
+
+package "依赖服务" #E3F2FD {
+    database "MySQL" as MySQL
+    database "Redis" as Redis
+    storage "对象存储" as OSS
+}
+
+package "被依赖方" #FFF3E0 {
+    [权限中心] as PermissionCenter
+    [组织架构] as OrgStructure
+    [业务系统] as BizSystem
+}
+' 依赖关系
+AccountMgr --> MySQL : 读写
+AccountMgr --> Redis : 缓存
+
+AuthMgr --> Redis : Token存储
+AuthMgr --> MySQL : 会话持久化
+
+ProfileMgr --> MySQL : 读写
+ProfileMgr --> OSS : 头像存储
+
+' 被依赖关系
+PermissionCenter --> AuthMgr : 调用认证
+OrgStructure --> AccountMgr : 关联用户
+BizSystem --> AuthMgr : 验证Token
+BizSystem --> ProfileMgr : 获取资料
+
+@enduml

@@ -1,0 +1,73 @@
+@startuml
+!theme plain
+skinparam backgroundColor #FEFEFE
+skinparam componentStyle rectangle
+
+title FEAT-003: SSO 系统架构
+
+package "业务系统层" {
+    [系统A
+    www.a-site.com] as AppA
+    [系统B
+    b.example.com] as AppB
+    [系统C
+    c.example.com] as AppC
+}
+
+package "SSO 认证中心" #E3F2FD {
+    [登录服务
+    /login] as LoginService
+    [Token服务
+    /verify] as TokenService
+    [刷新服务
+    /refresh] as RefreshService
+    [登出服务
+    /logout] as LogoutService
+    [通知服务
+    Pub/Sub] as NotifyService
+}
+
+package "数据存储层" #FFF3E0 {
+    database "Redis" as Redis {
+        [Token存储
+        TTL 2h] as TokenStore
+        [RefreshToken存储
+        TTL 7天] as RefreshStore
+        [黑名单
+        Set] as Blacklist
+    }
+
+    database "MySQL" as MySQL {
+        [用户表] as UserTable
+        [应用注册表] as AppTable
+        [登录日志表] as LogTable
+    }
+}
+
+' 业务系统到SSO
+AppA --> LoginService : 302重定向登录
+AppA --> TokenService : 校验Token
+AppA --> RefreshService : 刷新Token
+AppA --> LogoutService : 单点登出
+
+AppB --> LoginService : 302重定向登录
+AppB --> TokenService : 校验Token
+
+AppC --> TokenService : 校验Token
+
+' SSO到存储
+LoginService --> MySQL : 验证用户
+LoginService --> Redis : 存储Token
+
+TokenService --> Redis : 查询/验证
+
+RefreshService --> Redis : 更新Token
+
+LogoutService --> Redis : 加入黑名单
+LogoutService --> NotifyService : 广播登出
+
+NotifyService --> AppA : 推送登出通知
+NotifyService --> AppB : 推送登出通知
+NotifyService --> AppC : 推送登出通知
+
+@enduml

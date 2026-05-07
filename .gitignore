@@ -20,6 +20,7 @@ browser/
 # Device pairing (sensitive/transient)
 devices/paired.json
 devices/pending.json
+devices/bootstrap.json
 
 # Credentials (sensitive)
 credentials/*.json
@@ -50,3 +51,35 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Large files
+*.pptx
+*.ppt
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+
+# Environment files containing secrets
+.env
+.env.*
+
+# OpenClaw configs (may contain secrets)
+*/openclaw.json
+
+# OpenClaw internal state
+.openclaw/
+*/.openclaw/
+*/.openclaw-*/
+
+# Workspace state
+workspace/.openclaw/
+*/workspace/.openclaw/
+
+# Reset files
+*.reset.*
+
+# Devices directory
+devices/
+identity/
+

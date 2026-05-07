@@ -1,0 +1,60 @@
+@startuml
+!theme plain
+skinparam backgroundColor #FEFEFE
+
+title FEAT-003: SSO 跨域登录流程
+
+actor "用户" as User
+participant "系统A\n(www.a-site.com)" as AppA
+participant "SSO中心\n(sso.example.com)" as SSO
+database "Redis" as Redis
+database "MySQL" as MySQL
+
+== 首次访问（未登录）==
+User -> AppA: 访问受保护页面
+AppA -> AppA: 检查 Cookie（无Token）
+AppA -> SSO: 302 重定向到 /login?return_url=www.a-site.com/callback
+User -> SSO: 访问登录页
+SSO -> SSO: 检查 sso_token Cookie
+
+alt 未登录
+    SSO --> User: 显示登录页
+    User -> SSO: 提交账号密码
+    SSO -> MySQL: 验证用户身份
+    SSO -> SSO: 生成 AuthToken (UUID)
+    SSO -> SSO: 生成 RefreshToken
+    SSO -> Redis: 存储 Token (TTL 2h)
+    SSO -> Redis: 存储 RefreshToken (TTL 7天)
+    SSO -> SSO: 生成 ticket (5min有效)
+else 已登录
+    SSO -> SSO: 生成 ticket
+end
+
+SSO --> User: 302 重定向到 return_url?ticket=xxx
+User -> AppA: 访问 /callback?ticket=xxx
+AppA -> SSO: POST /exchange (ticket)
+SSO -> SSO: 验证 ticket
+SSO -> Redis: 查询 Token
+SSO --> AppA: 返回用户信息 + Token
+destroy ticket
+AppA -> AppA: 设置本地 Cookie
+AppA --> User: 302 跳转到首页
+
+== 已登录访问 ==
+User -> AppA: 访问页面（带本地Token）
+AppA -> AppA: 校验本地Token有效
+AppA --> User: 正常响应
+
+== 访问其他系统（同SSO域）==
+User -> AppB: 访问系统B (b.example.com)
+AppB -> AppB: 检查本地Cookie（无）
+AppB -> SSO: 302 重定向到 /login
+SSO -> SSO: 检查 sso_token Cookie（有）
+SSO -> SSO: 生成 ticket
+SSO --> User: 302 重定向到系统B callback
+User -> AppB: 访问 callback?ticket=xxx
+AppB -> SSO: 用 ticket 换取 Token
+SSO --> AppB: 返回用户信息
+AppB --> User: 登录成功（无需输密码）
+
+@enduml

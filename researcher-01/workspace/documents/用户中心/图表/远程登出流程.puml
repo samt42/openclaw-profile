@@ -1,0 +1,42 @@
+@startuml
+!theme plain
+skinparam backgroundColor #FEFEFE
+
+title FEAT-002: 远程登出指定设备流程
+
+|用户|
+start
+:选择要登出的设备;
+:确认登出操作;
+
+|前端|
+:发送登出请求
+DELETE /api/v1/sessions/{session_id};
+
+|后端|
+:验证用户权限;
+:检查设备是否为当前设备;
+if (是当前设备?) then (是)
+    :返回错误;
+    :提示"请使用退出登录";
+    stop
+else (否)
+    :将 Token 加入黑名单;
+    :Redis 标记会话为已终止;
+    :记录登出日志;
+    :返回登出成功;
+endif
+
+|WebSocket服务|
+:发送 SESSION_TERMINATED 消息;
+
+|被登出设备|
+:接收 WebSocket 通知;
+:清除本地 Token;
+:跳转登录页;
+
+|用户|
+:看到"已在其他设备登出"提示;
+stop
+
+@enduml

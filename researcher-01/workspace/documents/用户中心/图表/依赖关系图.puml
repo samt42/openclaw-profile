@@ -1,0 +1,16 @@
+@startuml
+!theme plain
+skinparam backgroundColor #FEFEFE
+
+title MODULE-001: 功能依赖关系
+
+[用户注册] as Register
+[用户登录] as Login
+[Token 管理] as TokenMgr
+[忘记密码] as ForgotPwd
+
+Register --> Login : 触发
+Register --> ForgotPwd : 扩展
+Login --> TokenMgr : 依赖
+
+@enduml

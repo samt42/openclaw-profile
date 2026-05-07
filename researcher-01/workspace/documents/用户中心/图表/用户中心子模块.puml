@@ -1,0 +1,36 @@
+@startuml
+!theme plain
+skinparam backgroundColor #FEFEFE
+
+title MODULE-001: 用户中心子模块划分
+
+rectangle "用户中心" {
+    package "账户管理" {
+        [用户注册] as Register
+        [用户登录] as Login
+        [密码管理] as Password
+        [用户资料] as Profile
+        [绑定管理] as BindManage
+        [用户登出] as Logout
+        [账户注销] as DeleteAccount
+
+        Register --> [手机号/邮箱] : 支持
+        Login --> [验证码/密码/OAuth] : 支持
+        Password --> [修改/找回] : 支持
+        Profile --> [昵称/头像/性别] : 包含
+        BindManage --> [手机/邮箱/第三方] : 支持
+    }
+
+    package "登录状态管理" {
+        [多端登录支持] as MultiDevice
+        [单点登出] as SingleLogout
+        [状态同步] as StatusSync
+
+        MultiDevice --> [最多5台] : 限制
+        SingleLogout --> [踢出设备] : 功能
+        StatusSync --> [踢出通知] : 实时
+    }
+
+}
+
+@enduml
