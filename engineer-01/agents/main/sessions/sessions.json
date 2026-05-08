@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "a2c81085-b2e7-4520-a2d2-847b8b2de163",
-    "updatedAt": 1774278771739,
+    "updatedAt": 1775557502408,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -88,20 +88,17 @@
       ],
       "version": 0
     },
-    "authProfileOverride": "0",
-    "authProfileOverrideSource": "auto",
-    "authProfileOverrideCompactionCount": 0,
-    "modelProvider": "kimi-coding",
-    "model": "k2p5",
-    "contextTokens": 262144,
+    "modelProvider": "volcengine-plan",
+    "model": "ark-code-latest",
+    "contextTokens": 256000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1774278767721,
+      "generatedAt": 1775557500616,
       "sessionId": "a2c81085-b2e7-4520-a2d2-847b8b2de163",
       "sessionKey": "agent:main:main",
-      "provider": "kimi-coding",
-      "model": "k2p5",
-      "workspaceDir": "/Users/moonviz/.openclaw/workspace",
+      "provider": "volcengine-plan",
+      "model": "ark-code-latest",
+      "workspaceDir": "/Users/moonviz/Workbench/openclaw-profile/engineer-01/workspace",
       "bootstrapMaxChars": 20000,
       "bootstrapTotalMaxChars": 150000,
       "bootstrapTruncation": {
@@ -116,22 +113,22 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 27393,
-        "projectContextChars": 13615,
-        "nonProjectContextChars": 13778
+        "chars": 28371,
+        "projectContextChars": 14527,
+        "nonProjectContextChars": 13844
       },
       "injectedWorkspaceFiles": [
         {
           "name": "AGENTS.md",
-          "path": "/Users/moonviz/.openclaw/workspace/AGENTS.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/engineer-01/workspace/AGENTS.md",
           "missing": false,
-          "rawChars": 7809,
-          "injectedChars": 7809,
+          "rawChars": 8518,
+          "injectedChars": 8518,
           "truncated": false
         },
         {
           "name": "SOUL.md",
-          "path": "/Users/moonviz/.openclaw/workspace/SOUL.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/engineer-01/workspace/SOUL.md",
           "missing": false,
           "rawChars": 1664,
           "injectedChars": 1664,
@@ -139,7 +136,7 @@
         },
         {
           "name": "TOOLS.md",
-          "path": "/Users/moonviz/.openclaw/workspace/TOOLS.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/engineer-01/workspace/TOOLS.md",
           "missing": false,
           "rawChars": 850,
           "injectedChars": 850,
@@ -147,7 +144,7 @@
         },
         {
           "name": "IDENTITY.md",
-          "path": "/Users/moonviz/.openclaw/workspace/IDENTITY.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/engineer-01/workspace/IDENTITY.md",
           "missing": false,
           "rawChars": 633,
           "injectedChars": 633,
@@ -155,7 +152,7 @@
         },
         {
           "name": "USER.md",
-          "path": "/Users/moonviz/.openclaw/workspace/USER.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/engineer-01/workspace/USER.md",
           "missing": false,
           "rawChars": 474,
           "injectedChars": 474,
@@ -163,7 +160,7 @@
         },
         {
           "name": "HEARTBEAT.md",
-          "path": "/Users/moonviz/.openclaw/workspace/HEARTBEAT.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/engineer-01/workspace/HEARTBEAT.md",
           "missing": false,
           "rawChars": 167,
           "injectedChars": 167,
@@ -171,7 +168,7 @@
         },
         {
           "name": "BOOTSTRAP.md",
-          "path": "/Users/moonviz/.openclaw/workspace/BOOTSTRAP.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/engineer-01/workspace/BOOTSTRAP.md",
           "missing": false,
           "rawChars": 1449,
           "injectedChars": 1449,
@@ -336,12 +333,11 @@
         ]
       }
     },
-    "inputTokens": 6336,
-    "outputTokens": 68,
-    "cacheRead": 5888,
+    "inputTokens": 11238,
+    "outputTokens": 93,
+    "cacheRead": 0,
     "cacheWrite": 0,
-    "totalTokens": 12224,
-    "totalTokensFresh": true,
+    "totalTokensFresh": false,
     "lastTo": "user:U0AHR6U5DEJ",
     "lastAccountId": "default"
   }

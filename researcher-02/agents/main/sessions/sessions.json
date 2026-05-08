@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "b48b59a7-36d3-4daf-aa2f-2315ae0cdf35",
-    "updatedAt": 1774281607315,
+    "updatedAt": 1775557492611,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -88,20 +88,17 @@
       ],
       "version": 0
     },
-    "authProfileOverride": "0",
-    "authProfileOverrideSource": "auto",
-    "authProfileOverrideCompactionCount": 0,
-    "modelProvider": "kimi-coding",
-    "model": "k2p5",
-    "contextTokens": 262144,
+    "modelProvider": "volcengine-plan",
+    "model": "ark-code-latest",
+    "contextTokens": 256000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1774281464671,
+      "generatedAt": 1775557489736,
       "sessionId": "b48b59a7-36d3-4daf-aa2f-2315ae0cdf35",
       "sessionKey": "agent:main:main",
-      "provider": "kimi-coding",
-      "model": "k2p5",
-      "workspaceDir": "/Users/moonviz/.openclaw/workspace",
+      "provider": "volcengine-plan",
+      "model": "ark-code-latest",
+      "workspaceDir": "/Users/moonviz/Workbench/openclaw-profile/researcher-02/workspace",
       "bootstrapMaxChars": 20000,
       "bootstrapTotalMaxChars": 150000,
       "bootstrapTruncation": {
@@ -116,22 +113,22 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 27393,
-        "projectContextChars": 13615,
-        "nonProjectContextChars": 13778
+        "chars": 28381,
+        "projectContextChars": 14535,
+        "nonProjectContextChars": 13846
       },
       "injectedWorkspaceFiles": [
         {
           "name": "AGENTS.md",
-          "path": "/Users/moonviz/.openclaw/workspace/AGENTS.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/researcher-02/workspace/AGENTS.md",
           "missing": false,
-          "rawChars": 7809,
-          "injectedChars": 7809,
+          "rawChars": 8512,
+          "injectedChars": 8512,
           "truncated": false
         },
         {
           "name": "SOUL.md",
-          "path": "/Users/moonviz/.openclaw/workspace/SOUL.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/researcher-02/workspace/SOUL.md",
           "missing": false,
           "rawChars": 1664,
           "injectedChars": 1664,
@@ -139,7 +136,7 @@
         },
         {
           "name": "TOOLS.md",
-          "path": "/Users/moonviz/.openclaw/workspace/TOOLS.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/researcher-02/workspace/TOOLS.md",
           "missing": false,
           "rawChars": 850,
           "injectedChars": 850,
@@ -147,7 +144,7 @@
         },
         {
           "name": "IDENTITY.md",
-          "path": "/Users/moonviz/.openclaw/workspace/IDENTITY.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/researcher-02/workspace/IDENTITY.md",
           "missing": false,
           "rawChars": 633,
           "injectedChars": 633,
@@ -155,7 +152,7 @@
         },
         {
           "name": "USER.md",
-          "path": "/Users/moonviz/.openclaw/workspace/USER.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/researcher-02/workspace/USER.md",
           "missing": false,
           "rawChars": 474,
           "injectedChars": 474,
@@ -163,7 +160,7 @@
         },
         {
           "name": "HEARTBEAT.md",
-          "path": "/Users/moonviz/.openclaw/workspace/HEARTBEAT.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/researcher-02/workspace/HEARTBEAT.md",
           "missing": false,
           "rawChars": 167,
           "injectedChars": 167,
@@ -171,7 +168,7 @@
         },
         {
           "name": "BOOTSTRAP.md",
-          "path": "/Users/moonviz/.openclaw/workspace/BOOTSTRAP.md",
+          "path": "/Users/moonviz/Workbench/openclaw-profile/researcher-02/workspace/BOOTSTRAP.md",
           "missing": false,
           "rawChars": 1449,
           "injectedChars": 1449,
@@ -336,18 +333,17 @@
         ]
       }
     },
-    "inputTokens": 21408,
-    "outputTokens": 4743,
-    "cacheRead": 138496,
+    "inputTokens": 11244,
+    "outputTokens": 60,
+    "cacheRead": 0,
     "cacheWrite": 0,
-    "totalTokens": 138901,
-    "totalTokensFresh": true,
+    "totalTokensFresh": false,
     "lastTo": "user:U0AHR6U5DEJ",
     "lastAccountId": "default"
   },
   "agent:main:slack:channel:c0alwsw629h": {
-    "sessionId": "4f0a147a-5538-4cd4-8df5-a0ddd57481d5",
-    "updatedAt": 1774284951344,
+    "sessionId": "6e0ab7f9-bc0b-42e4-a26e-aa51d6fa0e29",
+    "updatedAt": 1774377216547,
     "systemSent": true,
     "abortedLastRun": false,
     "displayName": "slack:#c0alwsw629h",
@@ -372,7 +368,7 @@
       "to": "channel:C0ALWSW629H",
       "accountId": "default"
     },
-    "sessionFile": "/Users/moonviz/Workbench/openclaw-profile/researcher-02/agents/main/sessions/4f0a147a-5538-4cd4-8df5-a0ddd57481d5.jsonl",
+    "sessionFile": "/Users/moonviz/Workbench/openclaw-profile/researcher-02/agents/main/sessions/6e0ab7f9-bc0b-42e4-a26e-aa51d6fa0e29.jsonl",
     "compactionCount": 0,
     "skillsSnapshot": {
       "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>coding-agent</name>\n    <description>Delegate coding tasks to Codex, Claude Code, or Pi agents via background process. Use when: (1) building/creating new features or apps, (2) reviewing PRs (spawn in temp dir), (3) refactoring large codebases, (4) iterative coding that needs file exploration. NOT for: simple one-liner fixes (just edit), reading code (use read tool), thread-bound ACP harness requests in chat (for example spawn/run Codex or Claude Code in a Discord thread; use sessions_spawn with runtime:&quot;acp&quot;), or any work in ~/clawd workspace (never spawn agents here). Claude Code: use --print --permission-mode bypassPermissions (no PTY). Codex/Pi/OpenCode: pty:true required.</description>\n    <location>~/.local/lib/node_modules/openclaw/skills/coding-agent/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).</description>\n    <location>~/.local/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>node-connect</name>\n    <description>Diagnose OpenClaw node connection and pairing failures for Android, iOS, and macOS companion apps. Use when QR/setup code/manual connect fails, local Wi-Fi works but VPS/tailnet does not, or errors mention pairing required, unauthorized, bootstrap token invalid or expired, gateway.bind, gateway.remote.url, Tailscale, or plugins.entries.device-pair.config.publicUrl.</description>\n    <location>~/.local/lib/node_modules/openclaw/skills/node-connect/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create, edit, improve, or audit AgentSkills. Use when creating a new skill from scratch or when asked to improve, review, audit, tidy up, or clean up an existing skill or SKILL.md file. Also use when editing or restructuring a skill directory (moving files to references/ or scripts/, removing stale content, validating against the AgentSkills spec). Triggers on phrases like &quot;create a skill&quot;, &quot;author a skill&quot;, &quot;tidy up a skill&quot;, &quot;improve this skill&quot;, &quot;review the skill&quot;, &quot;clean up the skill&quot;, &quot;audit the skill&quot;.</description>\n    <location>~/.local/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>slack</name>\n    <description>Use when you need to control Slack from OpenClaw via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.</description>\n    <location>~/.local/lib/node_modules/openclaw/skills/slack/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.</description>\n    <location>~/.local/lib/node_modules/openclaw/skills/weather/SKILL.md</location>\n  </skill>\n</available_skills>",
@@ -459,8 +455,8 @@
     "contextTokens": 262144,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1774284930020,
-      "sessionId": "4f0a147a-5538-4cd4-8df5-a0ddd57481d5",
+      "generatedAt": 1774377157213,
+      "sessionId": "6e0ab7f9-bc0b-42e4-a26e-aa51d6fa0e29",
       "sessionKey": "agent:main:slack:channel:c0alwsw629h",
       "provider": "kimi-coding",
       "model": "k2p5",
@@ -479,8 +475,8 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 26496,
-        "projectContextChars": 12236,
+        "chars": 27205,
+        "projectContextChars": 12945,
         "nonProjectContextChars": 14260
       },
       "injectedWorkspaceFiles": [
@@ -488,8 +484,8 @@
           "name": "AGENTS.md",
           "path": "/Users/moonviz/.openclaw/workspace/AGENTS.md",
           "missing": false,
-          "rawChars": 7809,
-          "injectedChars": 7809,
+          "rawChars": 8518,
+          "injectedChars": 8518,
           "truncated": false
         },
         {
@@ -703,11 +699,11 @@
         ]
       }
     },
-    "inputTokens": 8025,
-    "outputTokens": 970,
-    "cacheRead": 11776,
+    "inputTokens": 14076,
+    "outputTokens": 1380,
+    "cacheRead": 23296,
     "cacheWrite": 0,
-    "totalTokens": 18378,
+    "totalTokens": 23530,
     "totalTokensFresh": true
   }
 }

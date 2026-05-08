@@ -29,10 +29,52 @@
           "operator.pairing"
         ],
         "createdAtMs": 1773809188958,
-        "lastUsedAtMs": 1774256300639
+        "lastUsedAtMs": 1774364620844
       }
     },
     "createdAtMs": 1773809188958,
     "approvedAtMs": 1773809188958
+  },
+  "c92b71ca52e5ce09f6921da51482771e208b3545e79ac6ebb6e5e68254353bf1": {
+    "deviceId": "c92b71ca52e5ce09f6921da51482771e208b3545e79ac6ebb6e5e68254353bf1",
+    "publicKey": "7zxwJnKIgTCB4VMsXXLyUYdsXX5v7KpOKxLlbXDL2hI",
+    "platform": "darwin",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "remoteIp": "192.53.65.12",
+    "tokens": {
+      "operator": {
+        "token": "vrOUlqIKM6y1SMnnv0CkssoKjIBIbYSUNxBCuUsGKLI",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing",
+          "operator.read",
+          "operator.write"
+        ],
+        "createdAtMs": 1775044585145
+      }
+    },
+    "createdAtMs": 1775044585145,
+    "approvedAtMs": 1775044585145
   }
 }

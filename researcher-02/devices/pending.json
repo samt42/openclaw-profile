@@ -1,1 +1,21 @@
-{}
+{
+  "f6f95249-7ce1-47ea-a306-3ca1221254c7": {
+    "requestId": "f6f95249-7ce1-47ea-a306-3ca1221254c7",
+    "deviceId": "0a9af609469d592be10fd3b4ec95db8a24f102481937820f8c101c28f77359c3",
+    "publicKey": "oat0eguGs9UOwai0q5SkcmV_Hs83lr3qiOm0UtJhhgg",
+    "platform": "darwin",
+    "clientId": "cli",
+    "clientMode": "probe",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.read"
+    ],
+    "remoteIp": "192.53.65.12",
+    "silent": false,
+    "isRepair": false,
+    "ts": 1774377177095
+  }
+}
